@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"lib": [
+			"es5",
+			"dom" // 👈️ Add this
+		  ],
+        "module": "esNext",
+		"target": "es5",
+		"moduleResolution": "node",
+		"strict": true,
+		"noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "skipLibCheck": true,
+		"preserveConstEnums":true,
+		"sourceMap": true,
+		"watch": false
+	},
+	"files": [
+		"src/index.ts"
+	]
+}
